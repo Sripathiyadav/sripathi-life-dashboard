@@ -1,24 +1,44 @@
-# Logs
+# dependencies
+node_modules/
+
+# build output
+dist/
+build/
+
+# logs
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# macOS
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+
+# editors
+.vscode/
+.idea/
+
+# cache
+.cache/
+.parcel-cache/
+
+# coverage
+coverage/
+
+# vite
+.vite/
+
+# netlify
+.netlify/
+
+# temp
+tmp/
+temp/
