@@ -235,7 +235,7 @@ Edit `src/data/constants.js` → find `MODES` object → change `accent`, `accen
 
 ## Password
 
-Default password: `sri2026`
+Default password: `sri`
 Change it in `src/components/Auth.jsx` before deploying.
 Uses `sessionStorage` — you enter it once per browser session.
 
