@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const PASSWORD = "sri2026"; // change this to your own password
+const PASSWORD = "8790"; // change this to your own password
 
 export default function Auth({ children }) {
   const [unlocked, setUnlocked] = useState(() => {
